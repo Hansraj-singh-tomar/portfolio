@@ -11,7 +11,7 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2022 - present" 
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -24,7 +24,7 @@ function Experience() {
               Indore, MP
             </h4>
             <p>Developed the frontend infrastructure for the projects.</p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
